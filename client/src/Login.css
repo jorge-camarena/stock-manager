@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-size: cover;
+    font-family: 'Poppins';
+}
+
+.login-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    padding: 80px 40px 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.form h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+    color: #00cc44;
+}
+
+.form .input-group {
+    position: relative;
+}
+
+.form .input-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    color: inherit
+}
+
+.form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+.form .input-group input:focus + label,
+.form .input-group input:valid + label {
+    transform: translateY(-18px);
+    color: #00cc44;
+    font-size: 0.8rem;
+}
+
+.submit-btn {
+    display: block;
+    
+    border: none;
+    outline: none;
+    background-color: #00cc44;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+.p-first {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.redirect {
+    display: block;
+    outline: none;
+    border: 1px solid #00cc44;
+    background-color: transparent;
+    color: #00cc44;
+    font-size: 1rem;
+    padding: 10px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.redirect:hover {
+    background-color: #00cc44;
+    color: black;
+    transition: 0.3s ease;
+}
